@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 10vh;
+
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 50px;
+   
+
+    
+}
+
+input {
+    border-radius: 25px;
+   
+}
+
+.navigationBar {
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    gap: 100px;
+
+}
+
+.heading1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.searchbox {
+    border-color: blue;
+    border-style: solid;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 20px 119px 20px 119px;
+    display: flex;
+    flex-direction: column;
+
+   
+}
+
+.row1{
+   display: flex;
+   
+}
+
+.row2 {
+    display: flex;
+    padding-top: 20px;
+    
+}
+
+
+.buttomPosition {
+   display:flex ;
+   padding-top: 20px;
+   justify-content: right;
+   border-radius: 12px;
+
+     
+}
