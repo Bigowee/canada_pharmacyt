@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 10vh;
+    flex: auto;
 
 
 }
@@ -19,12 +20,13 @@ ul {
 
 input {
     border-radius: 25px;
+    height: 20px;
    
 }
 
 .navigationBar {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     background-color: green;
     gap: 100px;
 
@@ -41,22 +43,31 @@ input {
 .searchbox {
     border-color: blue;
     border-style: solid;
-    margin-left: 400px;
-    margin-right: 400px;
     padding: 20px 119px 20px 119px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    flex: auto;
 
    
 }
 
+.boxsize {
+    width: 861px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
 .row1{
    display: flex;
+   gap: 10px;
    
 }
 
 .row2 {
     display: flex;
+    gap: 10px;
     padding-top: 20px;
     
 }
@@ -64,9 +75,11 @@ input {
 
 .buttomPosition {
    display:flex ;
-   padding-top: 20px;
-   justify-content: right;
+   justify-content: center;
+   padding-top: 30px;
    border-radius: 12px;
+   gap: 10px;
+   
 
      
 }
