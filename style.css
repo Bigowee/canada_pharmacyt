@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     min-height: 10vh;
     flex: auto;
+    background-color: #EEEEED;
 
 
 }
@@ -27,27 +28,37 @@ input {
 .navigationBar {
     display: flex;
     justify-content: space-around;
-    background-color: green;
+    background-color: #EEEEED;
     gap: 100px;
+    align-items: center;
+    color: #303A8B;
+    font-weight: bolder;
+    font-size: large;
 
 }
+
+
 
 .heading1 {
     display: flex;
     justify-content: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #303A8B;
 
 }
 
 .searchbox {
-    border-color: blue;
+    border-color: #303A8B;
     border-style: solid;
     padding: 20px 119px 20px 119px;
     display: flex;
     flex-direction: column;
     align-items: center;
     flex: auto;
+    font-weight: bolder;
+    background-color: #303A8B;
+    color: white;
 
    
 }
@@ -56,7 +67,7 @@ input {
     width: 861px;
     height: 200px;
     box-sizing: border-box;
-    border: 1px solid red;
+    
 }
 
 .row1{
@@ -90,7 +101,7 @@ input {
     bottom: 0;
     position: fixed;
     width: 100%;
-    background-color: blue;
+    background-color: #303A8B;
     color: white;
     
 }
