@@ -21,7 +21,9 @@ ul {
 
 input {
     border-radius: 25px;
-    height: 20px;
+    height: 30px;
+    font-weight: bold;
+    font-size: medium;
    
 }
 
@@ -118,4 +120,8 @@ input {
     max-width: 600px;
     max-height: 500px;
     gap: 10px;
+}
+
+.box {
+    font-size: x-large;
 }
